@@ -28,7 +28,7 @@ body{}
 header{
 	background-image: url(..//img/DeathtoStock_Wired4.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	height: 550px;
 }
 header-inner{
@@ -207,9 +207,6 @@ main{
 }
 .sendmail_wrapper{
 	background-color: #2d3035;
-}
-.sendmail_wrapper h2{
-
 }
 .sendmail{
 	display: flex;
