@@ -1,0 +1,213 @@
+@media screen and (min-width: 1024px) and (max-width: 1240px)  {}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+/* mobile */
+@media screen and (max-width: 768px) {}
+
+/* iPad in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {}
+
+/* iPad in landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
+/* iPad in portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}
+
+
+/* Retina iPad in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+	h1{
+		padding-left: 30px;
+	}
+	nav{
+		padding-right: 30px;
+	}
+	.banner h2{
+		padding-top: 100px;
+	}
+	li a{
+		font-size: 20px;
+	}
+	.main-box1-inner{
+		padding: 0 200px 0 200px;
+	}
+	h4{
+		padding-left: 30px;
+	}
+}
+/* iPhone 5 in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	header{
+		height: 750px;
+	}
+	h1{
+		padding-left: 30px;
+		font-size: 45px;
+	}
+	nav{
+		padding-right: 30px;
+	}
+	li a{
+		font-size: 40px;
+	}
+	.main-box1-inner{
+		padding: 0 100px 0 100px;
+	}
+	.main-box1-inner h2{
+		font-size: 75px;
+		padding-bottom: 100px;
+	}
+	.main-box1-inner h3{
+		font-size: 30px;
+		padding-top: 30px;
+}
+	h4{
+		padding-left: 30px;
+	}
+	.btn_1 a{
+		font-size: 40px;
+		color:white;
+		padding: 45px 95px 45px 95px;
+	}
+	.banner h2{
+		padding: 140px 0 60px 0;
+		font-size: 75px;
+	}
+	.banner h3{
+		font-size: 30px;
+		padding-bottom: 120px;
+}
+	.main_box1-wrapper{
+		height: 750px;
+	}
+	.banner2 h2{
+		font-size: 80px;
+	}
+	.flex_box_inner{
+		display: block;
+	}
+	.flex_box_head{
+		background-color: #535a5e;
+		width: 600px;
+		height: 200px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		border-radius: 5px 5px 0px 0px ;
+	}
+	.flex_box_head h3{
+		font-size: 30px;
+		color: #fff;
+	}
+	.flex_sale{
+		flex-direction: column;
+		align-items: center;
+		padding-top: 50px;
+	}
+	.flex_sale h2{
+		color: #fff;
+		font-size: 50px;
+	}
+	.flex_box_center{
+		background-color: #e9eef2;
+		height: 600px;
+		font-size: 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		border-radius: 0px 0px 5px 5px;
+	}
+	.btn_2{
+		border-radius: 5px;
+		font-size: 50px;
+		color: #fff;
+		background-color: #535a5e;
+		width: 600px;
+		height: 120px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.flex_box_footer{
+		padding-top: 10px;
+		padding-bottom: 100px;
+	}
+	.box_text1{
+		font-size: 30px;
+	}
+	.Name{
+		padding: 20px;
+		width: 800px;
+		height: 100px;
+		color: #fff;
+		font-size: 30px;
+		background-color: #2d3035;
+		margin-bottom: 20px;
+		border: solid 3px #fff;
+		border-radius: 3px;
+	}
+	.Email{
+		padding: 20px;
+		width: 800px;
+		height: 100px;
+		color: #fff;
+		font-size: 30px;
+		background-color: #2d3035;
+		margin-bottom: 20px;
+		border: solid 3px #fff;
+		border-radius: 3px;
+	}
+	.Message{
+		padding: 20px;
+		color: #fff;
+		width: 800px;
+		font-size: 30px;
+		background-color: #2d3035;
+		height: 300px;
+		margin-bottom: 20px;
+		border: solid 3px #fff;
+		border-radius: 3px;
+	}
+	.text-send{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-height: 580px;
+		color: #fff;
+	}
+	.text-send h2{
+		padding: 80px 0 30px 0;
+		font-size: 70px;
+	}
+	.text-send h3{
+		font-size: 30px;
+		padding-bottom: 55px;
+		max-width: 500px;
+		color: #98a0a5;
+	}
+	.btn_3{
+		background-color: #a4b9be;
+		color: #2d3035;
+		font-weight: 700;
+		padding: 40px 352px 40px 352px ;
+		font-size: 40px;
+		border-radius: 3px;
+	}
+}
+
+/* iPhone 5 in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {}
+
+/* iPhone 5 in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {}
+
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {}
+
+/* iPhone 2G-4S in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {}
+
+/* iPhone 2G-4S in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {}
