@@ -1,0 +1,267 @@
+@media screen and (min-width: 1024px) and (max-width: 1240px)  {
+.banner h2{
+	padding: 140px 0 30px 0;
+	font-size: 30px;
+}
+.banner h3{
+	font-size: 16px;
+	padding-bottom: 55px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+
+	h2{
+	font-size: 30px;
+}
+	h3{
+	font-size: 16px;
+}
+	.flex_sale{
+		flex-direction: column;
+		align-items: center;
+	}
+	.slider-bg{
+    	width: 90%;
+
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+		h2{
+	font-size: 26px;
+}
+	h3{
+	font-size: 12px;
+}
+	.header_menu{
+		display: none;
+	}
+	.hamburger-menu{
+		display: contents;
+	}
+	.menu__btn{
+		right: 5%;
+	}
+	.footer_nav ul{
+		flex-wrap: wrap;
+	}
+	.footer_nav li{
+		margin: 10px;
+	}
+	footer-inner{
+		align-items: center;
+	}
+	.Name{
+	padding: 20px;
+	width: 300px;
+	background-color: #2d3035;
+	margin-bottom: 20px;
+	border: solid 3px #fff;
+	border-radius: 3px;
+}
+	.Email{
+		padding: 20px;
+		width: 300px;
+		background-color: #2d3035;
+		margin-bottom: 20px;
+		border: solid 3px #fff;
+		border-radius: 3px;
+	}
+	.Message{
+		padding: 20px;
+		width:300px;
+		background-color: #2d3035;
+		height: 110px;
+		margin-bottom: 20px;
+		border: solid 3px #fff;
+		border-radius: 3px;
+	}
+	.btn_3{
+		background-color: #a4b9be;
+		color: #2d3035;
+		font-weight: 700;
+		padding: 20px 126px 20px 126px ;
+		font-size: 18px;
+		border-radius: 3px;
+	}
+
+	    .slider {
+      position: relative;
+      overflow: hidden;
+      top: 25px;
+      max-width: 860px;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* стили для обёртки, в которой заключены слайды */
+    .slider__wrapper {
+      position: relative;
+      overflow: hidden;
+
+    }
+    .slider-bg{
+    	background-image: url(..//img/window.png);
+    	background-repeat: no-repeat;
+    	margin-top: 110px;
+    }
+
+    /* стили для контейнера слайдов */
+    .slider__items {
+      display: flex;
+      transition: transform 0.6s ease;
+    }
+	.img-fluid{
+		object-fit: cover;
+    }
+    /* стили для слайдов */
+    .slider__item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    /* стили для кнопок "вперед" и "назад" */
+    .slider__control {
+      position: absolute;
+      top: 50%;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      color: #fff;
+      text-align: center;
+      opacity: 0.5;
+      height: 50px;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .slider__control_show {
+      display: flex;
+    }
+
+    .slider__control:hover,
+    .slider__control:focus {
+      color: #fff;
+      text-decoration: none;
+      outline: 0;
+      opacity: 0.9;
+    }
+
+    .slider__control_prev {
+      left: 0;
+    }
+
+    .slider__control_next {
+      right: 0;
+    }
+
+    .slider__control::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: transparent no-repeat center center;
+      background-size: 100% 100%;
+    }
+
+    .slider__control_prev::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .slider__control_next::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    /* стили для индикаторов */
+    .slider__indicators {
+      position: absolute;
+      right: 0;
+      bottom: 10px;
+      left: 0;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      padding-left: 0;
+      margin-right: 15%;
+      margin-left: 15%;
+      list-style: none;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .slider__indicators li {
+      box-sizing: content-box;
+      flex: 0 1 auto;
+      width: 10px;
+      height: 4px;
+      margin-right: 3px;
+      margin-left: 3px;
+      text-indent: -999px;
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0.5);
+      background-clip: padding-box;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+    }
+
+    .slider__indicators li.active {
+      background-color: #fff;
+    }
+
+    .img-fluid {
+      display: inline-block;
+      height: auto;
+      max-width: 100%;
+    }
+}
+@media screen and (max-width: 630px){
+	.slider {
+      position: relative;
+      overflow: hidden;
+      top: 25px;
+      max-width: 860px;
+      height: 250px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .slider-bg{
+    	background-image: url(..//img/window.png);
+    	background-repeat: no-repeat;
+    	margin-top: 166px;
+    }
+}
+@media screen and (max-width: 420px){
+	.slider {
+      position: relative;
+      overflow: hidden;
+      top: 25px;
+      max-width: 860px;
+      height: 210px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .slider-bg{
+    	background-image: url(..//img/window.png);
+    	background-repeat: no-repeat;
+    	margin-top: 200px;
+    }
+}
+
+
+/* iPhone 5 in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {}
+
+/* iPhone 5 in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {}
+
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {}
+
+/* iPhone 2G-4S in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {}
+
+/* iPhone 2G-4S in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {}
