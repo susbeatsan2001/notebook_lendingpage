@@ -55,8 +55,12 @@ li{
 	padding-left: 20px;
 }
 h1{
-	font-size: 40px;
+  padding-left: 30px;
+  font-size: 40px;
 	color: #fff;
+}
+.header_list{
+  padding-right: 30px;
 }
 li a{
 	font-size: 16px;
@@ -293,6 +297,10 @@ footer-inner{
 h4{
 	color: #535a5e;
 	font-size: 16px;
+  padding-left: 30px;
+}
+.footer_nav{
+  padding-right: 30px;
 }
 .footer_nav a{
 	color: #535a5e;
@@ -320,6 +328,7 @@ h4{
     }
     .slider-bg{
     	background-image: url(..//img/window.png);
+      background-repeat: no-repeat;
     }
 
     /* стили для контейнера слайдов */
@@ -329,6 +338,7 @@ h4{
     }
 	.img-fluid{
     width: 100%;
+
     }
     /* стили для слайдов */
     .slider__item {
@@ -342,7 +352,7 @@ h4{
       display: none;
       align-items: center;
       justify-content: center;
-      width: 40px;
+      width: 20px;
       color: #fff;
       text-align: center;
       opacity: 0.5;
@@ -394,7 +404,7 @@ h4{
       right: 0;
       bottom: 10px;
       left: 0;
-      z-index: 15;
+      z-index: 1;
       display: flex;
       justify-content: center;
       padding-left: 0;
@@ -429,3 +439,101 @@ h4{
       height: auto;
       max-width: 100%;
     }
+
+
+
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 26px;
+  height: 26px;
+
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+
+  width: 100%;
+  height: 2px;
+
+  background-color: #fff;
+
+  transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 100;
+  width: 300px;
+  height: 100%;
+
+  margin: 0;
+  padding: 80px 0;
+
+  list-style: none;
+
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+
+  transition-duration: .25s;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+
+  color: #333;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+
+  text-decoration: none;
+
+  transition-duration: .25s;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+.hamburger-menu{
+  display: none;
+}
+
+
