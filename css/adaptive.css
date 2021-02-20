@@ -55,8 +55,8 @@
 	.menu__btn{
 		right: 5%;
 	}
-	.footer_nav ul{
-		flex-direction: column;
+	footer-inner{
+		flex-direction: column-reverse;
 	}
 	.footer_nav li{
 		margin: 10px;
